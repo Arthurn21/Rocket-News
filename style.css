@@ -1,0 +1,1723 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Spartan, sans-serif;
+    z-index: 1;
+    
+    background: #121214;
+}
+
+html,body{
+    height: 100%;
+}
+
+section.main {
+    width: 100%;
+    min-height: 100%;
+}
+
+.center {
+    margin: -50px;
+    position: absolute;
+    width: 770px;
+    height: 780px;
+}
+
+.text {
+    position: absolute;
+    width: 647px;
+    height: 102px;
+    left: 36px;
+    top: 236px;
+
+}
+
+.text h3 {
+    position: absolute;
+    height: 30.44px;
+    width: 566px;
+    left: 36px;
+    top: 60px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #08C05E;
+}
+
+.text dt {
+    position: absolute;
+    width: 520px;
+    height: 16px;
+    left: 36px;
+    top: 95px;
+
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
+
+.text p{
+    position: absolute;
+    width: 647px;
+    height: 38px;
+    left: 36px;
+    top: 120px;
+
+    font-family: 'Spartan';
+    font-style: normal; 
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
+
+.form{
+    position: absolute;
+    height: 84px;
+    left: 36px;
+    top: 388px;
+}
+
+.form label {
+    position: absolute;
+    width: 133px;
+    height: 19px;
+    left: 36px;
+    top: 55px;
+
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 138.73%;
+
+    color: #A8A8A8;
+}
+
+.form input{
+    position: absolute;
+    width: 798px;
+    height: 48px;
+    left: 36px;
+    top: 337px;
+    
+    filter: drop-shadow(4px 10px 15px rgba(0, 0, 0, 0.5));
+
+}
+
+.form input {
+    position: absolute;
+    width: 750px;
+    height: 48px;
+    left: 36px;
+    top: 424px;
+
+    background: #FFFFFF;
+    position: absolute;
+    width: 750px;
+    height: 48px;
+    left: 36px;
+    top: 80px;
+    z-index: 1;
+
+    background: #FFFFFF;
+
+}
+ 
+.btn {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 786px;
+    top: 80px;
+    background: #8257E5;
+
+}
+
+.form btn svg {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 786px;
+    top: 424px;
+    
+}
+
+.form svg {
+    bottom: 45.83%;
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: -3px;
+    top: -1px;
+
+    background: #8257E5;
+
+}
+
+.form div {
+    position: absolute;
+    width: 10px;
+    height: 48px;
+    left: 33px;
+    top: 80px;
+    z-index: -1;    
+
+    background: #04D361;
+}
+
+.link p{
+    position: absolute;
+    width: 196px;
+    height: 24px;
+    left: 68px;
+    top: 570px;
+
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 138.73%;
+    text-decoration: none;
+
+    color: #8257E5;
+}
+
+.link svg
+{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 230px;
+    top: 567px;
+}
+
+
+
+.rectangule_1 {
+    position: absolute;
+    width: 1010px;
+    height: 785px;
+    left: 376px;
+    top: 0px;
+    z-index: -1;
+}
+
+#img {
+    position: absolute;
+    width: 649px;
+    height: 784px;
+    left: 374px;
+    top: 0px;
+    
+
+    background-position: right;
+    background: url(read_news.jpg);
+}
+
+.logo {
+    position: absolute;
+    width: 389px;
+    height: 94px;
+    left: 30px;
+    top: 50px;
+
+    position: absolute;
+    left: 95.43%;
+    right: 2.93%;
+    top: 57.14%;
+    bottom: 36.46%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 37.63%;
+    right: 5.58%;
+    top: 31.36%;
+    bottom: 36.27%;
+
+    background: #E1E1E6;
+
+    position: absolute;
+    left: 11.76%;
+    right: 87.57%;
+    top: 35.88%;
+    bottom: 60.17%;
+
+    background: #8157E4;
+
+    position: absolute;
+    left: 11.17%;
+    right: 87.06%;
+    top: 30.99%;
+    bottom: 54.19%;
+
+    background: #D7D7E1;
+
+    position: absolute;
+    left: 15.4%;
+    right: 84.15%;
+    top: 64.36%;
+    bottom: 34.03%;
+
+    background: #04D361;
+
+    position: absolute;
+    left: 14.77%;
+    right: 84.77%;
+    top: 64.55%;
+    bottom: 33.84%;
+
+    background: #AAAABC;
+
+    position: absolute;
+    left: 14.15%;
+    right: 85.39%;
+    top: 64.73%;
+    bottom: 33.66%;
+
+    background: #AAAABC;
+
+    position: absolute;
+    left: 14.28%;
+    right: 78.65%;
+    top: 44.26%;
+    bottom: 26.35%;
+    
+    background: linear-gradient(247.68deg, #8157E4 31.27%, #7D55DD 40.67%, #724EC9 54.62%, #6143A8 71.37%, #49347A 90.32%, #2A2141 110.8%, #121214 125.09%);
+
+    position: absolute;
+    left: 13.18%;
+    right: 76.45%;
+    top: 0%;
+    bottom: 74.56%;
+    
+    background: linear-gradient(281.73deg, #8157E4 42.18%, #7D55DD 50.23%, #724EC9 62.18%, #6143A8 76.51%, #49347A 92.73%, #2A2141 110.26%, #121214 122.49%);
+
+    position: absolute;
+    left: 13.65%;
+    right: 71.82%;
+    top: 60.56%;
+    bottom: 32.17%;
+    
+    background: #D7D7E1;
+
+    position: absolute;
+    left: 10.61%;
+    right: 88.9%;
+    top: 91.75%;
+    bottom: 7.92%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 13.69%;
+    right: 81.65%;
+    top: 89.92%;
+    bottom: 8.66%;
+
+    background: #6F33EA;
+
+    position: absolute;
+    left: 11.06%;
+    right: 86.35%;
+    top: 91.1%;
+    bottom: 8.01%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 8.62%;
+    right: 89.39%;
+    top: 91.86%;
+    bottom: 7.33%;
+
+    background: #6F33EA;
+
+    position: absolute;
+    left: 5.79%;
+    right: 93.63%;
+    top: 97.1%;
+    bottom: 2.55%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 8.93%;
+    right: 86.1%;
+    top: 96.42%;
+    bottom: 2.82%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 6.27%;
+    right: 91.11%;
+    top: 96.88%;
+    bottom: 2.58%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 4.02%;
+    right: 94.1%;
+    top: 97.16%;
+    bottom: 2.36%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 3.37%;
+    right: 95.87%;
+    top: 97.4%;
+    bottom: 2.23%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 8.34%;
+    right: 91.11%;
+    top: 94.28%;
+    bottom: 5.37%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 11.5%;
+    right: 83.41%;
+    top: 92.89%;
+    bottom: 5.92%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 8.82%;
+    right: 88.57%;
+    top: 93.84%;
+    bottom: 5.46%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 6.51%;
+    right: 91.59%;
+    top: 94.37%;
+    bottom: 4.98%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 5.76%;
+    right: 93.41%;
+    top: 94.8%;
+    bottom: 4.72%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 11.27%;
+    right: 88.15%;
+    top: 92.25%;
+    bottom: 7.38%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 16.1%;
+    right: 83.39%;
+    top: 91.22%;
+    bottom: 8.4%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 14.61%;
+    right: 83.97%;
+    top: 91.36%;
+    bottom: 8.07%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 11.83%;
+    right: 85.48%;
+    top: 91.68%;
+    bottom: 7.49%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 9.25%;
+    right: 88.08%;
+    top: 95.53%;
+    bottom: 3.88%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 6.26%;
+    right: 91.35%;
+    top: 95.92%;
+    bottom: 3.51%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 8.64%;
+    right: 90.73%;
+    top: 95.85%;
+    bottom: 3.8%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 4.96%;
+    right: 93.71%;
+    top: 96.22%;
+    bottom: 3.32%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 8.23%;
+    right: 86.86%;
+    top: 97.56%;
+    bottom: 1.79%;
+
+    background: #6F33EA;
+
+    position: absolute;
+    left: 5.67%;
+    right: 91.74%;
+    top: 97.9%;
+    bottom: 1.62%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 3.25%;
+    right: 94.82%;
+    top: 98.12%;
+    bottom: 1.44%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 5.12%;
+    right: 94.28%;
+    top: 98.1%;
+    bottom: 1.57%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 2.55%;
+    right: 96.63%;
+    top: 98.28%;
+    bottom: 1.37%;
+    
+    background: #04D361;    
+
+    position: absolute;
+    left: 5.83%;
+    right: 91.52%;
+    top: 98.93%;
+    bottom: 0.63%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 3.05%;
+    right: 94.7%;
+    top: 99.08%;
+    bottom: 0.5%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 5.24%;
+    right: 94.12%;
+    top: 99.04%;
+    bottom: 0.61%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 1.98%;
+    right: 96.87%;
+    top: 99.19%;
+    bottom: 0.46%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 1.77%;
+    right: 97.83%;
+    top: 99.26%;
+    bottom: 0.44%;
+    
+    background: #AD92FF;
+
+    position: absolute;
+    left: 9.38%;
+    right: 87.96%;
+    top: 94.61%;
+    bottom: 4.72%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 6.55%;
+    right: 91.21%;
+    top: 95.09%;
+    bottom: 4.3%;
+    
+    background: #6F33EA; 
+
+    position: absolute;
+    left: 8.78%;
+    right: 90.61%;
+    top: 95%;
+    bottom: 4.63%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 5.41%;
+    right: 93.42%;
+    top: 95.48%;
+    bottom: 4.06%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 5.16%;
+    right: 94.45%;
+    top: 95.72%;
+    bottom: 3.99%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 7.66%;
+    right: 90.23%;
+    top: 93.43%;
+    bottom: 5.87%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 9.92%;
+    right: 88.24%;
+    top: 93.02%;
+    bottom: 6.37%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 6.64%;
+    right: 92.31%;
+    top: 93.91%;
+    bottom: 5.56%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 6.42%;
+    right: 93.21%;
+    top: 94.24%;
+    bottom: 5.43%;
+    
+    background: #04D361;
+
+
+    position: absolute;
+    left: 9%;
+    right: 88.69%;
+    top: 92.38%;
+    bottom: 6.85%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 7.73%;
+    right: 91%;
+    top: 92.93%;
+    bottom: 6.48%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 7.37%;
+    right: 92.17%;
+    top: 93.32%;
+    bottom: 6.33%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 7.75%;
+    right: 91.31%;
+    top: 92.47%;
+    bottom: 6.92%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 17.09%;
+    right: 82.56%;
+    top: 81.05%;
+    bottom: 18.51%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 19.99%;
+    right: 75.74%;
+    top: 77.67%;
+    bottom: 19.91%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 17.53%;
+    right: 80.17%;
+    top: 79.9%;
+    bottom: 18.71%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 14.98%;
+    right: 83.04%;
+    top: 81.3%;
+    bottom: 17.37%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 14.51%;
+    right: 84.98%;
+    top: 86.49%;
+    bottom: 13.07%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 17.72%;
+    right: 77.3%;
+    top: 83.45%;
+    bottom: 14.3%;
+
+    background: #6F33EA;
+
+    position: absolute;
+    left: 15.05%;
+    right: 82.45%;
+    top: 85.53%;
+    bottom: 13.29%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 12.5%;
+    right: 85.47%;
+    top: 86.71%;
+    bottom: 12.2%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 11.38%;
+    right: 87.55%;
+    top: 87.63%;
+    bottom: 11.55%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 15.94%;
+    right: 83.63%;
+    top: 83.76%;
+    bottom: 15.82%;
+    
+    background: #04D361;
+
+        position: absolute;
+    left: 19.02%;
+    right: 76.09%;
+    top: 80.29%;
+    bottom: 17.18%;
+
+    background: #6F33EA;
+
+    position: absolute;
+    left: 16.44%;
+    right: 81.17%;
+    top: 82.65%;
+    bottom: 16.04%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 13.91%;
+    right: 84.11%;
+    top: 83.98%;
+    bottom: 14.8%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 12.74%;
+    right: 86.18%;
+    top: 85.07%;
+    bottom: 14.04%;
+
+    background: #04D361;
+
+    position: absolute;
+    left: 18.1%;
+    right: 81.48%;
+    top: 81.3%;
+    bottom: 18.23%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 22.65%;
+    right: 77%;
+    top: 79.16%;
+    bottom: 20.38%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 21.23%;
+    right: 77.56%;
+    top: 79.46%;
+    bottom: 19.69%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 18.63%;
+    right: 78.99%;
+    top: 80.14%;
+    bottom: 18.47%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 16.43%;
+    right: 81.02%;
+    top: 87.36%;
+    bottom: 11.59%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 13.22%;
+    right: 84.27%;
+    top: 88.37%;
+    bottom: 10.61%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 10.63%;
+    right: 87.37%;
+    top: 89.39%;
+    bottom: 9.67%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 15.81%;
+    right: 83.65%;
+    top: 88.17%;
+    bottom: 11.41%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 12.67%;
+    right: 86.82%;
+    top: 89.2%;
+    bottom: 10.43%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 9.64%;
+    right: 89.37%;
+    top: 90.14%;
+    bottom: 9.15%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 17.61%;
+    right: 79.91%;
+    top: 83.67%;
+    bottom: 15.1%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 14.6%;
+    right: 83.1%;
+    top: 84.96%;
+    bottom: 13.86%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 17.01%;
+    right: 82.5%;
+    top: 84.72%;
+    bottom: 14.86%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 13.08%;
+    right: 85.52%;
+    top: 86.01%;
+    bottom: 13.12%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 17.42%;
+    right: 77.53%;
+    top: 84.39%;
+    bottom: 13.42%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 14.83%;
+    right: 82.68%;
+    top: 86.36%;
+    bottom: 12.51%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 12.12%;
+    right: 85.81%;
+    top: 87.52%;
+    bottom: 11.42%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 14.26%;
+    right: 85.24%;
+    top: 87.28%;
+    bottom: 12.31%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 10.96%;
+    right: 87.93%;
+    top: 88.41%;
+    bottom: 10.82%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 9.71%;
+    right: 88.18%;
+    top: 90.92%;
+    bottom: 8.23%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 11.84%;
+    right: 87.61%;
+    top: 90.72%;
+    bottom: 8.9%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 8.62%;
+    right: 90.29%;
+    top: 91.6%;
+    bottom: 7.77%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 8.38%;
+    right: 91.27%;
+    top: 92.03%;
+    bottom: 7.64%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 14.15%;
+    right: 83.25%;
+    top: 88.82%;
+    bottom: 10.21%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 11.17%;
+    right: 86.52%;
+    top: 89.76%;
+    bottom: 9.3%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 13.54%;
+    right: 85.92%;
+    top: 89.59%;
+    bottom: 10.02%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 9.8%;
+    right: 88.88%;
+    top: 90.5%;
+    bottom: 8.8%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 9.44%;
+    right: 90.15%;
+    top: 91.03%;
+    bottom: 8.62%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 15.41%;
+    right: 82.03%;
+    top: 86.91%;
+    bottom: 12%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 12.43%;
+    right: 85.27%;
+    top: 88.02%;
+    bottom: 10.94%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 14.8%;
+    right: 84.67%;
+    top: 87.8%;
+    bottom: 11.79%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 11.03%;
+    right: 87.64%;
+    top: 88.87%;
+    bottom: 10.35%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 10.64%;
+    right: 88.95%;
+    top: 89.48%;
+    bottom: 10.15%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 17.38%;
+    right: 80.18%;
+    top: 83.02%;
+    bottom: 15.71%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 14.48%;
+    right: 83.32%;
+    top: 84.35%;
+    bottom: 14.43%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 16.79%;
+    right: 82.74%;
+    top: 84.11%;
+    bottom: 15.47%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 13.07%;
+    right: 85.63%;
+    top: 85.42%;
+    bottom: 13.69%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 12.68%;
+    right: 86.95%;
+    top: 86.14%;
+    bottom: 13.44%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 14.83%;
+    right: 83.1%;
+    top: 82.85%;
+    bottom: 15.89%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 17.17%;
+    right: 81.19%;
+    top: 81.95%;
+    bottom: 17.05%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 13.51%;
+    right: 85.29%;
+    top: 83.94%;
+    bottom: 15.12%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 13.08%;
+    right: 86.53%;
+    top: 84.7%;
+    bottom: 14.82%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 15.86%;
+    right: 81.99%;
+    top: 81.54%;
+    bottom: 17.15%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 14.41%;
+    right: 84.28%;
+    top: 82.71%;
+    bottom: 16.33%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 13.91%;
+    right: 85.66%;
+    top: 83.48%;
+    bottom: 16.02%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 13.73%;
+    right: 85.11%;
+    top: 82.43%;
+    bottom: 16.56%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 18.01%;
+    right: 81.73%;
+    top: 67.43%;
+    bottom: 32.06%;
+    
+    background: #AD92FF;
+    
+    position: absolute;
+    left: 20.33%;
+    right: 76.18%;
+    top: 65.36%;
+    bottom: 32.91%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 18.37%;
+    right: 79.8%;
+    top: 66.76%;
+    bottom: 32.19%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 16.1%;
+    right: 82.13%;
+    top: 67.57%;
+    bottom: 31.41%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 18.45%;
+    right: 81.25%;
+    top: 74.73%;
+    bottom: 24.75%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 21.21%;
+    right: 74.48%;
+    top: 71.19%;
+    bottom: 26.15%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 18.91%;
+    right: 79.07%;
+    top: 73.64%;
+    bottom: 24.99%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 16.47%;
+    right: 81.7%;
+    top: 74.96%;
+    bottom: 23.73%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 15.14%;
+    right: 83.73%;
+    top: 76.03%;
+    bottom: 22.98%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 18.35%;
+    right: 81.37%;
+    top: 71.14%;
+    bottom: 28.35%;
+    
+    background: #AD92FF;
+
+    position: absolute;
+    left: 20.92%;
+    right: 74.96%;
+    top: 68.09%;
+    bottom: 29.55%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 18.78%;
+    right: 79.31%;
+    top: 70.23%;
+    bottom: 28.53%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 16.46%;
+    right: 81.8%;
+    top: 71.32%;
+    bottom: 27.48%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 15.1%;
+    right: 83.77%;
+    top: 72.21%;
+    bottom: 26.85%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 19.3%;
+    right: 80.39%;
+    top: 68.27%;
+    bottom: 31.21%;
+    
+    background: #AD92FF;
+
+    position: absolute;
+    left: 22.94%;
+    right: 76.75%;
+    top: 66.78%;
+    bottom: 32.78%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 21.79%;
+    right: 77.23%;
+    top: 66.98%;
+    bottom: 32.26%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 19.72%;
+    right: 78.4%;
+    top: 67.48%;
+    bottom: 31.37%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 21.35%;
+    right: 76.49%;
+    top: 75.36%;
+    bottom: 23.2%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 18.47%;
+    right: 79.41%;
+    top: 76.87%;
+    bottom: 21.74%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 15.89%;
+    right: 82.22%;
+    top: 78.31%;
+    bottom: 20.36%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 20.79%;
+    right: 78.85%;
+    top: 76.6%;
+    bottom: 22.92%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 17.98%;
+    right: 81.66%;
+    top: 78.06%;
+    bottom: 21.45%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 14.6%;
+    right: 84.27%;
+    top: 79.46%;
+    bottom: 19.54%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 20.66%;
+    right: 77.37%;
+    top: 71.58%;
+    bottom: 27.07%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 18.03%;
+    right: 80.08%;
+    top: 72.93%;
+    bottom: 25.76%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 20.15%;
+    right: 79.58%;
+    top: 72.69%;
+    bottom: 26.82%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 16.56%;
+    right: 82.22%;
+    top: 73.98%;
+    bottom: 25.03%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 21.39%;
+    right: 74.15%;
+    top: 72.06%;
+    bottom: 25.17%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 19.13%;
+    right: 78.83%;
+    top: 74.59%;
+    bottom: 24.03%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 16.55%;
+    right: 81.58%;
+    top: 76.01%;
+    bottom: 22.66%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 18.62%;
+    right: 81.07%;
+    top: 75.75%;
+    bottom: 23.75%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 15.19%;
+    right: 83.65%;
+    top: 77.1%;
+    bottom: 21.89%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 15.79%;
+    right: 82.21%;
+    top: 80.05%;
+    bottom: 18.62%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 17.97%;
+    right: 81.63%;
+    top: 79.85%;
+    bottom: 19.67%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 14.45%;
+    right: 84.36%;
+    top: 81.21%;
+    bottom: 17.81%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 14.06%;
+    right: 85.63%;
+    top: 81.97%;
+    bottom: 17.55%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 19.69%;
+    right: 78.1%;
+    top: 77.11%;
+    bottom: 21.46%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 16.89%;
+    right: 81.04%;
+    top: 78.59%;
+    bottom: 20.04%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 19.2%;
+    right: 80.41%;
+    top: 78.33%;
+    bottom: 21.19%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 15.41%;
+    right: 83.29%;
+    top: 79.77%;
+    bottom: 19.21%;
+
+    background: #6F33EA;
+
+    position: absolute;
+    left: 14.88%;
+    right: 84.76%;
+    top: 80.68%;
+    bottom: 18.83%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 20.05%;
+    right: 77.84%;
+    top: 75.12%;
+    bottom: 23.48%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 17.32%;
+    right: 80.68%;
+    top: 76.6%;
+    bottom: 22.05%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 19.52%;
+    right: 80.15%;
+    top: 76.32%;
+    bottom: 23.2%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 15.86%;
+    right: 82.88%;
+    top: 77.74%;
+    bottom: 21.22%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 15.33%;
+    right: 84.34%;
+    top: 78.54%;
+    bottom: 20.93%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 20.03%;
+    right: 78.04%;
+    top: 70.82%;
+    bottom: 27.89%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 17.5%;
+    right: 80.68%;
+    top: 72.09%;
+    bottom: 26.65%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 19.54%;
+    right: 80.19%;
+    top: 71.87%;
+    bottom: 27.63%;
+    
+    background: #AD92FF;
+
+    position: absolute;
+    left: 16.08%;
+    right: 82.75%;
+    top: 73.05%;
+    bottom: 25.97%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 15.62%;
+    right: 84.11%;
+    top: 73.74%;
+    bottom: 25.73%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 16.92%;
+    right: 81.32%;
+    top: 69.94%;
+    bottom: 28.92%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 18.99%;
+    right: 79.73%;
+    top: 69.25%;
+    bottom: 29.81%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 15.54%;
+    right: 83.3%;
+    top: 70.77%;
+    bottom: 28.31%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 15.01%;
+    right: 84.63%;
+    top: 71.3%;
+    bottom: 28.09%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 17.41%;
+    right: 80.81%;
+    top: 68.46%;
+    bottom: 30.45%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 16.02%;
+    right: 82.79%;
+    top: 69.2%;
+    bottom: 29.92%;
+    
+    background: #6F33EA;
+
+    position: absolute;
+    left: 15.47%;
+    right: 84.14%;
+    top: 69.7%;
+    bottom: 29.71%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 14.71%;
+    right: 84.04%;
+    top: 68.16%;
+    bottom: 30.97%;
+    
+    background: #04D361;
+
+    position: absolute;
+    left: 0%;
+    right: 69.85%;
+    top: 60.56%;
+    bottom: 0%;
+
+    background: radial-gradient(122.46% 388.13% at 94.24% -23.5%, #27272E 28.82%, #121214 100%);
+
+    position: absolute;
+    left: 3.23%;
+    right: 73.06%;
+    top: 9.82%;
+    bottom: 28.33%;
+    
+    background: #FFFFFF;
+
+    position: absolute;
+    left: 2.7%;
+    right: 92.58%;
+    top: 76.93%;
+    bottom: 3.46%;
+    
+    background: #464650;
+
+    position: absolute;
+    left: 2.7%;
+    right: 84.32%;
+    top: 61.33%;
+    bottom: 3.48%;
+    
+    background: #FFFFFF;
+
+    position: absolute;
+    left: 12.61%;
+    right: 82.38%;
+    top: 59.4%;
+    bottom: 13.66%;
+    
+    background: #FFFFFF;
+
+    position: absolute;
+    left: 4.07%;
+    right: 90.17%;
+    top: 11.14%;
+    bottom: 71.9%;
+
+    background: #8157E4;
+
+    position: absolute;
+    left: 10.01%;
+    right: 88.68%;
+    top: 23.53%;
+    bottom: 71.59%;
+    
+    background: #121214;    
+
+    position: absolute;
+    left: 10.23%;
+    right: 88.58%;
+    top: 16.64%;
+    bottom: 81.63%;
+    
+    background: #121214;
+
+    position: absolute;
+    left: 10.94%;
+    right: 88.61%;
+    top: 19.77%;
+    bottom: 76.57%;
+    
+    background: #121214;
+
+    position: absolute;
+    left: 10.22%;
+    right: 89.34%;
+    top: 19.24%;
+    bottom: 77.11%;
+    
+    background: #121214;
+
+    position: absolute;
+    left: 9.04%;
+    right: 87.26%;
+    top: 12.93%;
+    bottom: 67.09%;
+    
+}
+
